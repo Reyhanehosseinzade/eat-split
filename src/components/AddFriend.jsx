@@ -43,7 +43,7 @@ export default function AddFriend({ onAddFriend }) {
             }}
           >
             <FormLabel htmlFor="bill" sx={{ fontSize: "13px" }}>
-              👩🏼‍🤝‍👩🏻 friend&aops;s name
+              👩🏼‍🤝‍👩🏻 friend&apos;s name
             </FormLabel>
             <TextField
               id="standard-basic"
