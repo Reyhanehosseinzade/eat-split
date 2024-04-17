@@ -42,8 +42,8 @@ export default function AddFriend({ onAddFriend }) {
               justifyContent: "space-between",
             }}
           >
-            <FormLabel htmlFor="bill" xs={4}>
-              👩🏼‍🤝‍👩🏻 friends name
+            <FormLabel htmlFor="bill" sx={{ fontSize: "13px" }}>
+              👩🏼‍🤝‍👩🏻 friend&aops;s name
             </FormLabel>
             <TextField
               id="standard-basic"
@@ -61,7 +61,7 @@ export default function AddFriend({ onAddFriend }) {
               justifyContent: "space-between",
             }}
           >
-            <FormLabel htmlFor="bill" xs={4}>
+            <FormLabel sx={{ fontSize: "13px" }} htmlFor="bill" xs={4}>
               🖼 Image Url
             </FormLabel>
             <TextField

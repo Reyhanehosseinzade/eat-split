@@ -35,7 +35,7 @@ export default function SplitForm({ selectedFriend, onSplitBill }) {
           }}
         >
           <Grid container alignItems="center" justifyContent="space-between">
-            <FormLabel htmlFor="bill" xs={4}>
+            <FormLabel htmlFor="bill" sx={{ fontSize: "13px" }}>
               💰 Bill Value
             </FormLabel>
             <TextField
@@ -49,7 +49,7 @@ export default function SplitForm({ selectedFriend, onSplitBill }) {
           </Grid>
 
           <Grid container alignItems="center" justifyContent="space-between">
-            <FormLabel htmlFor="userexpense" xs={4}>
+            <FormLabel htmlFor="userexpense" sx={{ fontSize: "13px" }}>
               🧍🏻‍♀️ Your expense
             </FormLabel>
             <TextField
@@ -69,7 +69,7 @@ export default function SplitForm({ selectedFriend, onSplitBill }) {
           </Grid>
 
           <Grid container alignItems="center" justifyContent="space-between">
-            <FormLabel htmlFor="friendexpense" xs={4}>
+            <FormLabel htmlFor="friendexpense" sx={{ fontSize: "14px" }}>
               👩🏻‍🤝‍👩🏻 {selectedFriend.name}&apos;s expense
             </FormLabel>
             <TextField
@@ -82,15 +82,15 @@ export default function SplitForm({ selectedFriend, onSplitBill }) {
             />
           </Grid>
           <Grid container alignItems="center" justifyContent="space-between">
-            <FormLabel xs={4}>🤑 Who is paying the bill?</FormLabel>
+            <FormLabel sx={{ fontSize: "13px" }}>
+              🤑 Who is paying the bill?
+            </FormLabel>
             <Select
               size="small"
               value={whoIsPaying}
               onChange={(e) => setWhoIsPaying(e.target.value)}
             >
-              <MenuItem value="friend">
-                {selectedFriend.name}
-              </MenuItem>
+              <MenuItem value="friend">{selectedFriend.name}</MenuItem>
               <MenuItem value="user">you</MenuItem>
             </Select>
           </Grid>
