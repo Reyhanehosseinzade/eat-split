@@ -40,7 +40,7 @@ export default function FriendItem({ friend, onSelection, selectedFriend }) {
         <Button
           variant="contained"
           style={{
-            backgroundColor: "orange",
+            backgroundColor: "#5dc1f3",
             color: "black",
           }}
           onClick={() => onSelection(friend)}

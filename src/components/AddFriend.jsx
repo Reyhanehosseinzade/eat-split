@@ -18,7 +18,6 @@ export default function AddFriend({ onAddFriend }) {
     };
 
     onAddFriend(newFriend);
-
     setName("");
     setImage("https://i.pravatar.cc/48");
   }
@@ -76,7 +75,7 @@ export default function AddFriend({ onAddFriend }) {
             type="submit"
             variant="contained"
             style={{
-              backgroundColor: "orange",
+              backgroundColor: "#5dc1f3",
               color: "black",
               margin: "10px",
             }}

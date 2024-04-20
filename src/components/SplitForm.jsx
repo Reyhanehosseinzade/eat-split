@@ -99,7 +99,7 @@ export default function SplitForm({ selectedFriend, onSplitBill }) {
           variant="contained"
           type="submit"
           style={{
-            backgroundColor: "orange",
+            backgroundColor: "#5dc1f3",
             color: "black",
             margin: "10px",
           }}

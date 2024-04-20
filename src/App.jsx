@@ -10,26 +10,14 @@ function App() {
   const [friends, setFriends] = useState([
     {
       id: crypto.randomUUID(),
-      name: "atefe",
+      name: "sara",
       image: `https://i.pravatar.cc/150`,
-      balance: 0,
-    },
-    {
-      id: crypto.randomUUID(),
-      name: "ali",
-      image: "https://i.pravatar.cc/48",
       balance: 0,
     },
     {
       id: crypto.randomUUID(),
       name: "reyhane",
       image: `https://i.pravatar.cc/150`,
-      balance: 0,
-    },
-    {
-      id: crypto.randomUUID(),
-      name: "hamid",
-      image: `https://i.pravatar.cc/150?image`,
       balance: 0,
     },
   ]);
@@ -76,7 +64,7 @@ function App() {
           <Button
             variant="contained"
             style={{
-              backgroundColor: "orange",
+              backgroundColor: "#5dc1f3",
               color: "black",
               margin: "10px",
             }}
